@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.link:hover {
+    background-color: lightblue;
+}
+
+.xbutton {
+    position: absolute;
+    right: -20px;
+    top: 10px;
+    z-index: 1000;
+    height: 30px;
+}
+
+.xbutton:hover {
+    transform: scale(1.1);
+    color: red;
+}
